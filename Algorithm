@@ -1,0 +1,47 @@
+1- write all the initiall status of the game ( game running, first game,  board, odd_nums, event_nums)
+2- make a function to display the board
+3- make a function to display the current game status (contains the function displaying the board)
+
+4- make the first player function
+    take input >> (odd num from 1 to 10)
+    remove the chosen odd num from odd nums
+    take input where to place this odd num in the board
+    check if the odd num is in the odd nums, and check if num where to place in range 1-9
+
+5- make the second player function
+    take input >> (even num from 1 to 10)
+    remove the chosen even num from even nums
+    take input where to place this even num on the board
+    check if the even num is in the even nums, and check if num where to place in range 1-9
+
+
+6- make the functions that check all winning cases ( Horizontally, Vertically, Diagonally)
+
+7- check tie (if there is  no empty place on the board)
+
+8- Perform The Following Loop:
+    display the initial game status
+
+    while game running >> while true
+
+    call player one function
+    display the game status
+    check win
+        if true end the game
+    check tie
+        if true end the game
+
+
+    call player two function
+    display game status
+    check win
+        if true end the game
+
+    check tie
+        if true end the game
+
+
+
+
+
+
